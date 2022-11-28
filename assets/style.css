@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(52, 170, 203);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 85%;
+    padding: 10px;
+}
+
+.card{
+    background-color: aliceblue;
+    background-clip: border-box;
+    border-radius: 1.2em;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.card-body{
+    padding: 1.25em;
+}
+
+.card-title{
+    font-size: 2rem;
+    margin:0 0 0 0.75;
+}
+
+.image img{
+    max-width: 400px;
+}
+
+.jam-waktu{
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.jam-waktu:first-child{
+    margin-left: 0;
+}
+
+.jam-waktu > .value{
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-weight: bolder;
+    font-size:2em;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.label{
+    text-align: center;
+    padding-top: 4px;
+    font-size: 15px;
+}
+
+
