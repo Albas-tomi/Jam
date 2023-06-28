@@ -1,4 +1,4 @@
-let hariTahunBaru = new Date(new Date().getFullYear() + 1,0,1);
+let hariTahunBaru = new Date(2023, 6, 7);;
 
 let hari = document.getElementById('hari');
 let jam = document.getElementById('jam');
